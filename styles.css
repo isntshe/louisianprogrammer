@@ -1,0 +1,99 @@
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .logo {
+            width: 100px; /* Adjust width for your logo */
+            height: auto;
+            margin-right: 20px; /* Space between logo and title */
+            background-color: #ccc; /* Placeholder for logo */
+        }
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0px;
+        }
+        .container li {
+            background-color: #d9d9d9;
+            padding: 10px;
+            margin: 20px 0 0;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        h2 {
+            font-size: 20px;
+            margin: 20px 0 10px;
+        }
+        p {
+            margin: 5px 0 20px;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        .img-container {
+            width: auto;
+            height: auto; /* Adjusted height for better layout */
+            margin-bottom: 20px;
+            position: relative; /* For absolute positioning of the image */
+        }
+        .img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the area without distortion */
+            filter: brightness(70%); /* Darken the image */
+        }
+        .overlay-text {
+            position: absolute; /* Position text relative to the container */
+            top: 50%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Adjust position to center */
+            color: white; /* Text color */
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 90px; /* Text size */
+            text-align: center; /* Center text */
+
+        }
+        nav {
+        background-color: #38b6ff;
+        padding: 50px 0;
+        }
+        .nav-links {
+        list-style: none; 
+        padding: 0;      
+        margin: 0;       
+        display: flex;    
+        justify-content: right; 
+        }
+
+        .nav-links li {
+        margin: 0 10px; 
+        font-size: 20px;
+        }
+
+        .nav-links a {
+        color: white; 
+        text-decoration: none; 
+        padding: 10px 20px; 
+        transition: background-color 0.3s; 
+        }
+
+        .nav-links a:hover {
+        background-color: #38b6ff; 
+        border-radius: 4px; 
+        }
+
+        p {
+            margin-left: 150px;
+        }
+        footer {
+            color: white;
+            text-align: center;
+            background-color: #38b6ff;
+            padding: 20px;
+        }
+        .a {
+            text-align: center;
+        }
